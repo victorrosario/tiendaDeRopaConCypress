@@ -4,7 +4,8 @@
   "description": "pruebas automatizadas del sistema de ropa.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"cypress open"
   },
   "keywords": [
     "qa",
@@ -18,5 +19,6 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.6.0"
-  }
+  },
+  "repository": {"type":"git","url":"https://github.com/victorrosario/tiendaDeRopaConCypress"}
 }
